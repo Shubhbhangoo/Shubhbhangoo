@@ -4,7 +4,8 @@ I'm a Computer Science student who likes building things and then making them un
 
 ### Currently building
 
-🔐 **Agent Firewall**  
+🔐 **Agent Firewall**
+
 A capability-based security layer for AI agents and automated tool use.
 
 v1.0 is released, with cryptographic identities, signed capabilities, delegation, replay protection, MCP/HTTP authorization, persistent security state, and 1,600+ tests.
@@ -24,6 +25,10 @@ v1.0 is released, with cryptographic identities, signed capabilities, delegation
 ### Currently interested in
 
 AI agents • cybersecurity • cryptography • developer tools • open source
+
+### Contact
+
+📧 **Email:** shubhbhangoo@gmail.com
 
 ### GitHub
 
