@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero.svg" width="900" alt="Animated kinetic typography hero" />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero-v2.svg" width="900" alt="Animated morphing systems lab hero" />
 
 <br />
-
-`C++23` · `Python` · `Distributed Systems` · `Cryptography` · `AI Agents`
 
 </div>
 
