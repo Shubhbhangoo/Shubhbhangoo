@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs>
+ <linearGradient id="txt" x1="0" x2="1"><stop stop-color="#8a94a3"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#8a94a3"/></linearGradient>
+ <linearGradient id="scan"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+ <clipPath id="clip"><rect width="900" height="420" rx="30"/></clipPath>
+</defs>
+<rect width="900" height="420" rx="30" fill="#07080b" stroke="#292f39"/>
+<g clip-path="url(#clip)">
+ <ellipse cx="450" cy="190" rx="330" ry="150" fill="url(#halo)" filter="url(#soft)"><animate attributeName="rx" values="280;350;280" dur="9s" repeatCount="indefinite"/></ellipse>
+ <path d="M110 286 Q450 72 790 286" fill="none" stroke="#303641" stroke-width="1"/>
+ <path d="M145 302 Q450 108 755 302" fill="none" stroke="#fff" stroke-opacity=".07" stroke-dasharray="1 16"><animate attributeName="stroke-dashoffset" from="0" to="-136" dur="7s" repeatCount="indefinite"/></path>
+ <text x="450" y="68" text-anchor="middle" fill="#626c7a" font-family="monospace" font-size="10" letter-spacing="5">SYSTEMS LAB · SHUBH BHANGU · 2026</text>
+ <text x="450" y="148" text-anchor="middle" fill="url(#txt)" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700" letter-spacing="11">I BUILD</text>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="700" text-anchor="middle" fill="#edf0f4">
+  <text x="450" y="213">SYSTEMS<animate attributeName="opacity" values="0;1;1;0;0" dur="16s" repeatCount="indefinite"/></text>
+  <text x="450" y="213">SECURITY<animate attributeName="opacity" values="0;0;0;1;0" dur="16s" repeatCount="indefinite"/></text>
+  <text x="450" y="213">CRYPTOGRAPHY<animate attributeName="opacity" values="0;0;0;0;1" dur="16s" repeatCount="indefinite"/></text>
+  <text x="450" y="213">AI INFRASTRUCTURE<animate attributeName="opacity" values="1;0;0;0;0" dur="16s" repeatCount="indefinite"/></text>
+ </g>
+ <rect x="300" y="236" width="300" height="1" fill="#343b46"><animate attributeName="width" values="70;300;70" dur="8s" repeatCount="indefinite"/></rect>
+ <circle cx="450" cy="237" r="2.5" fill="#fff"><animate attributeName="cx" values="300;600;300" dur="8s" repeatCount="indefinite"/></circle>
+ <text x="450" y="274" text-anchor="middle" fill="#8b95a3" font-family="monospace" font-size="12" letter-spacing="3">WHERE SOFTWARE MEETS PRESSURE</text>
+ <text x="450" y="324" text-anchor="middle" fill="#596371" font-family="monospace" font-size="10" letter-spacing="3">C++23  ·  PYTHON  ·  DISTRIBUTED SYSTEMS  ·  CRYPTOGRAPHY  ·  AI</text>
+ <text x="450" y="366" text-anchor="middle" fill="#747e8c" font-family="monospace" font-size="11" letter-spacing="4">BUILD → BREAK → VERIFY → HARDEN</text>
+ <circle cx="110" cy="366" r="2" fill="#fff"><animate attributeName="cx" values="110;790;110" dur="10s" repeatCount="indefinite"/></circle>
+ <rect x="-120" y="0" width="85" height="420" fill="url(#scan)" transform="skewX(-16)"><animate attributeName="x" from="-160" to="980" dur="9s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
