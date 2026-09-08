@@ -1,111 +1,109 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/amarian-signal.svg" width="900" alt="Amarian protocol signal" />
+
 # SHUBH BHANGU
 
 ### Systems · Security · AI Infrastructure · Cryptography
 
-Building software where the interesting part starts **after** the demo works.
+**I build systems that are interesting after the demo works.**
 
-[![Amarian](https://img.shields.io/badge/AMARIAN-C%2B%2B23-black?style=for-the-badge&logo=bitcoin&logoColor=white)](https://github.com/Shubhbhangoo/Amarian-AMR-)
-[![Agent Firewall](https://img.shields.io/badge/AGENT%20FIREWALL-v2.6-black?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Shubhbhangoo/agent-firewall)
+[![Amarian](https://img.shields.io/badge/AMARIAN-C%2B%2B23-09090b?style=for-the-badge)](https://github.com/Shubhbhangoo/Amarian-AMR-)
+[![Agent Firewall](https://img.shields.io/badge/AGENT_FIREWALL-v2.6-09090b?style=for-the-badge)](https://github.com/Shubhbhangoo/agent-firewall)
 
 </div>
 
 ---
 
-## What I'm building
+## CURRENT BUILDS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💎 Amarian
+### 💎 AMARIAN
 
 **An independent proof-of-work blockchain built from scratch in C++23.**
 
-A protocol experiment focused on scarcity, deterministic consensus, self-custody, auditability, and post-quantum readiness.
+A protocol experiment built around scarcity, deterministic consensus, self-custody, auditability, and a post-quantum future.
 
-**Built:**
-- C++23 / CMake / Ninja
-- SHA-256d proof of work
-- UTXO + deterministic validation
-- P2P synchronization
-- Mempool, mining & RPC
-- Wallet + BIP-39 backup/restore
-- Post-quantum signatures
-- RocksDB persistence
+```text
+C++23       ████████████████████
+CONSENSUS   ████████████████████
+P2P         ████████████████████
+WALLET      ████████████████████
+PQ CRYPTO   ████████████████████
+```
 
-**Status:** Phases 0–12 complete.
+**PHASES 0–12 COMPLETE**
 
-→ **[Explore Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-)**  
-→ **[Protocol site](https://shubhbhangoo.github.io/Amarian-AMR-/)**
+→ [Repository](https://github.com/Shubhbhangoo/Amarian-AMR-)  
+→ [Protocol site](https://shubhbhangoo.github.io/Amarian-AMR-/)
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ Agent Firewall
+### 🛡️ AGENT FIREWALL
 
-**Security control-plane infrastructure for autonomous AI agents and automated tool use.**
+**Security control-plane infrastructure for autonomous AI agents.**
 
-The core idea is simple: authorization stays deterministic, explicit, and fail-closed. Everything else provides security context around that boundary.
+Authorization stays deterministic, explicit, and fail-closed. Identity, provenance, monitoring, behavioral analysis, evidence, and response sit around that boundary.
 
-**Built:**
-- Capability-based authorization
-- Cryptographic identities
-- Signed capabilities & delegation
-- Replay protection
-- MCP / HTTP authorization
-- Persistent security state
-- Behavioral analysis & evidence
-- Adaptive authority controls
-- Concurrency-focused security testing
+```text
+IDENTITY → TASK → AUTHORITY
+             ↓
+          POLICY
+             ↓
+      ALLOW / DENY / REFUSE
+             ↓
+         EXECUTION
+```
 
-**Current:** v2.6
+**CURRENT: v2.6**  
+Concurrency-focused security release.
 
-→ **[Explore Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)**
+→ [Repository](https://github.com/Shubhbhangoo/agent-firewall)
 
 </td>
 </tr>
 </table>
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/firewall-grid.svg" width="900" alt="Agent Firewall authorization boundary" />
+
+</div>
+
 ---
 
-## Engineering interests
+## THE INTERSECTION
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   SYSTEMS        SECURITY        AI AGENTS        CRYPTO     │
-│      │               │                │               │      │
-│      └───────────────┼────────────────┼───────────────┘      │
-│                      │                │                      │
-│                 INFRASTRUCTURE   TRUST BOUNDARIES           │
-│                      │                │                      │
-│                      └───────┬────────┘                      │
-│                              ▼                               │
-│                    SOFTWARE THAT HOLDS UP                    │
-│                       UNDER PRESSURE                          │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+                    ┌─────────────────┐
+                    │   SYSTEMS       │
+                    │   ENGINEERING   │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              │              │              │
+              ▼              ▼              ▼
+          PROTOCOLS       SECURITY       AI AGENTS
+              │              │              │
+              └──────────────┼──────────────┘
+                             ▼
+                    TRUST BOUNDARIES
+                             │
+                             ▼
+                 SOFTWARE UNDER PRESSURE
 ```
 
-### Tools I reach for
+### Things I care about
 
-**Languages**  
-`C++` · `Python` · `TypeScript` · `C` · `SQL`
-
-**Systems & infrastructure**  
-`CMake` · `Ninja` · `Linux` · `RocksDB` · `Git` · `GitHub Actions`
-
-**AI / ML**  
-`PyTorch` · `TensorFlow` · `scikit-learn` · AI agents · tool-use systems
-
-**Security**  
-`Cryptography` · `Authorization` · `Capability systems` · `MCP` · `Threat modeling` · `Fuzzing`
+`C++` · `Python` · `Cryptography` · `Authorization` · `AI Agents` · `Distributed Systems` · `Fuzzing` · `Threat Modeling` · `Linux` · `CMake`
 
 ---
 
-## How I like to build
+## ENGINEERING PHILOSOPHY
 
 > **Make the boundary explicit. Make the failure safe. Make the system measurable.**
 
@@ -113,47 +111,30 @@ I like projects that force the implementation to answer uncomfortable questions:
 
 - What happens with hostile input?
 - What happens when state changes halfway through a decision?
-- What happens when a dependency disappears?
-- Can the important invariant be tested instead of merely documented?
-- Can someone else inspect the system and verify the claim?
+- Can an invariant be tested instead of merely documented?
+- Can the important claims be measured and reproduced?
+- Can someone else inspect the system and verify the result?
 
-That is the fun part.
-
----
-
-## Current focus
-
-```text
-AMARIAN         ████████████████████  protocol engineering
-AGENT FIREWALL  ████████████████████  security engineering
-AI AGENTS       ███████████████░░░░░  infrastructure & control
-CRYPTO          ███████████████░░░░░  applied systems
-```
-
-The bars are intentionally qualitative. No fake "97% complete" dashboard nonsense here.
+That is where the interesting engineering starts.
 
 ---
 
-## Selected work
+## SELECTED WORK
 
-| Project | What it is | Stack |
+| Project | Domain | Core |
 |---|---|---|
-| **[Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-)** | Proof-of-work blockchain from scratch | C++23 |
-| **[Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)** | Security control plane for AI agents | Python |
-| **[Research](https://github.com/Shubhbhangoo/research)** | Research, experiments & technical work | Mixed |
+| 💎 [**Amarian**](https://github.com/Shubhbhangoo/Amarian-AMR-) | Blockchain / Systems | C++23 · PoW · UTXO |
+| 🛡️ [**Agent Firewall**](https://github.com/Shubhbhangoo/agent-firewall) | AI Security | Python · Authorization |
+| 🔬 [**Research**](https://github.com/Shubhbhangoo/research) | Research / Experiments | Mixed |
 
 ---
-
-## Around GitHub
-
-I build in public, test aggressively, break things on purpose, and then try to make the failure impossible to repeat.
-
-If a project looks unnecessarily deep, there is a reasonable chance that was intentional.
 
 <div align="center">
 
-### Build. Break. Secure. Repeat.
+### BUILD. BREAK. SECURE. REPEAT.
 
-**[GitHub](https://github.com/Shubhbhangoo) · [Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-) · [Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)**
+`████████████████████████████████████████`
+
+[GitHub](https://github.com/Shubhbhangoo) · [Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-) · [Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)
 
 </div>
