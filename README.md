@@ -77,13 +77,11 @@ The common thread is simple: **make the rules explicit, then make violating them
 
 ---
 
-## 04 / TOOLBOX
+<div align="center">
 
-| SYSTEMS | SECURITY | AI / DATA |
-|---|---|---|
-| C++23 · C · Linux | Cryptography · Authorization | Python · PyTorch |
-| CMake · Ninja · RocksDB | Capability systems · Fuzzing | TensorFlow · scikit-learn |
-| Git · GitHub Actions | Threat modeling · MCP | AI agents · Tool use |
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-toolbox.svg" width="900" alt="Animated glass toolbox with systems security and AI tooling" />
+
+</div>
 
 ---
 
