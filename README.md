@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero-v2.svg" width="900" alt="Animated morphing systems lab hero" />
-
-<br />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero-v3.svg" width="900" alt="Animated cinematic systems lab hero" />
 
 </div>
 
@@ -67,7 +65,7 @@ The authorization boundary stays explicit and fail-closed. Identity, provenance,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/glass-orbit.svg" width="900" alt="Animated systems trust boundary" />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/cinematic-core.svg" width="900" alt="Animated trust is engineered systems visualization" />
 
 </div>
 
@@ -75,7 +73,7 @@ I care about the layer where software stops being a demo and starts meeting pres
 
 **Hostile input. Race windows. Deterministic failure. Explicit invariants. Measurable claims. Reproducible behaviour. Narrow trust boundaries.**
 
-That is the common thread between a blockchain protocol and an authorization system for AI agents: **make the rules explicit, then make violating them difficult.**
+The common thread is simple: **make the rules explicit, then make violating them difficult.**
 
 ---
 
