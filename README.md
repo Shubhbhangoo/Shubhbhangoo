@@ -1,134 +1,133 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/profile-hero.svg" width="100%" alt="Shubh Bhanghu systems lab" />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/glass-orbit.svg" width="900" alt="Animated systems lab" />
+
+# SHUBH BHANGU
+
+### SYSTEMS · SECURITY · AI INFRASTRUCTURE · CRYPTOGRAPHY
+
+**I build infrastructure for the parts of software that are supposed to be difficult.**
+
+`C++23` · `Python` · `Distributed Systems` · `Cryptography` · `AI Agents`
 
 </div>
+
+---
 
 <div align="center">
 
-[ **AMARIAN** ](https://github.com/Shubhbhangoo/Amarian-AMR-)　 [ **AGENT FIREWALL** ](https://github.com/Shubhbhangoo/agent-firewall)　 [ **RESEARCH** ](https://github.com/Shubhbhangoo/research)
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/glass-panels.svg" width="900" alt="Amarian and Agent Firewall" />
 
 </div>
-
-<br>
-
-<div align="center">
-
-### TWO SYSTEMS. ONE OBSESSION.
-
-**Build the boundary. Attack the boundary. Measure the boundary.**
-
-</div>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/project-map.svg" width="100%" alt="Amarian and Agent Firewall project map" />
-
-<br>
 
 ## 01 / AMARIAN
 
-<div align="center">
+### **Digital diamond, built from scratch.** 💎
 
-### 💎 DIGITAL DIAMOND
-
-</div>
-
-An independent proof-of-work blockchain built from scratch in **C++23**. Amarian is an exercise in building a protocol all the way down: consensus, UTXO, storage, mining, networking, wallet, RPC and post-quantum signatures.
-
-`C++23` · `SHA-256d` · `UTXO` · `P2P` · `RocksDB` · `PQ CRYPTO`
-
-**PHASES 0–12 COMPLETE** · Phase 13 is mainnet readiness.
+An independent proof-of-work blockchain engineered in **C++23** around deterministic consensus, scarce issuance, self-custody, auditability and a post-quantum future.
 
 <div align="center">
 
-**[ EXPLORE REPOSITORY ](https://github.com/Shubhbhangoo/Amarian-AMR-)**　 **[ OPEN PROTOCOL SITE ](https://shubhbhangoo.github.io/Amarian-AMR-/)**
+`SHA-256d`　`UTXO`　`P2P`　`WALLET`　`RocksDB`　`POST-QUANTUM`
+
+**PHASES 0 → 12 COMPLETE**
+
+[ **EXPLORE AMARIAN ↗** ](https://github.com/Shubhbhangoo/Amarian-AMR-)　[ **PROTOCOL SITE ↗** ](https://shubhbhangoo.github.io/Amarian-AMR-/)
 
 </div>
 
-<br>
+> Not a financial product. Not a promise of value. An engineering project built to make the protocol answer to its own rules.
+
+---
 
 ## 02 / AGENT FIREWALL
 
-<div align="center">
+### **Make authorization boring. Make failure safe.** 🛡️
 
-### 🛡️ THE AUTHORIZATION BOUNDARY
+Security control-plane infrastructure for autonomous AI agents and automated tool use.
 
-</div>
+The central boundary is deliberately narrow:
 
-Security control-plane infrastructure for autonomous AI agents and automated tool use. The central rule is deliberately boring and therefore useful: **authorization stays deterministic, explicit and fail-closed.**
+```text
+IDENTITY → TASK → AUTHORITY → CAPABILITY → POLICY
+                                      ↓
+                              ALLOW / DENY / REFUSE
+                                      ↓
+                                  EXECUTION
+```
 
-Identity, capabilities, delegation, provenance, monitoring, behavioral analysis, evidence and adaptive controls sit around that boundary without becoming a second path to authority.
-
-`PYTHON` · `CAPABILITIES` · `CRYPTOGRAPHIC IDENTITY` · `MCP` · `FUZZING` · `THREAT MODELING`
-
-**v2.6** · concurrency-focused security release.
-
-<div align="center">
-
-**[ EXPLORE REPOSITORY ](https://github.com/Shubhbhangoo/agent-firewall)**
-
-</div>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/terminal-loop.svg" width="100%" alt="Animated systems lab terminal" />
-
-<br>
+Everything around that boundary provides evidence, context, monitoring and response. Nothing gets to quietly become a second authorization path.
 
 <div align="center">
 
-## THE WORKBENCH
+`CAPABILITIES`　`CRYPTOGRAPHIC IDENTITY`　`DELEGATION`　`REPLAY PROTECTION`  
+`MCP / HTTP`　`BEHAVIORAL ANALYSIS`　`EVIDENCE`　`CONCURRENCY`
 
-`C++`　`Python`　`TypeScript`　`Linux`　`CMake`　`Ninja`  
-`Cryptography`　`Distributed Systems`　`AI Agents`　`Authorization`  
-`Fuzzing`　`Threat Modeling`　`Machine Learning`
+**CURRENT RELEASE · v2.6**
+
+[ **EXPLORE AGENT FIREWALL ↗** ](https://github.com/Shubhbhangoo/agent-firewall)
 
 </div>
 
-<br>
+---
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+## 03 / THE COMMON THREAD
 
-### ENGINEERING RULES
+<div align="center">
 
-**01** Make the boundary explicit.  
-**02** Make failure safe.  
-**03** Make invariants executable.  
-**04** Measure what matters.  
-**05** Never trust the happy path.
+```text
+             AMARIAN                 AGENT FIREWALL
+                │                          │
+                │                          │
+          DISTRIBUTED TRUST          AUTHORITY TRUST
+                │                          │
+                └──────────┬───────────────┘
+                           │
+                           ▼
+                    TRUST BOUNDARIES
+                           │
+                           ▼
+                 SYSTEMS UNDER PRESSURE
+```
 
-</td>
-<td width="50%" valign="top">
+</div>
 
-### QUESTIONS I LIKE
+I care about software where the interesting questions begin **after** the happy path works.
 
-What happens under hostile input?  
-What happens when state changes mid-decision?  
-Can the claim be reproduced?  
-Can the invariant fail CI?  
-Can another engineer verify it?
+- hostile input
+- changing state during a decision
+- deterministic failure
+- explicit invariants
+- measurable claims
+- reproducible behaviour
+- narrow trust boundaries
 
-</td>
-</tr>
-</table>
+**Build it. Attack it. Measure it. Then make the failure harder to repeat.**
 
-<br>
+---
+
+## 04 / TOOLBOX
+
+| SYSTEMS | SECURITY | AI / DATA |
+|---|---|---|
+| C++23 · C · Linux | Cryptography · Authorization | Python · PyTorch |
+| CMake · Ninja · RocksDB | Capability systems · Fuzzing | TensorFlow · scikit-learn |
+| Git · GitHub Actions | Threat modeling · MCP | AI agents · Tool use |
+
+---
 
 <div align="center">
 
 ### CURRENTLY BUILDING
 
-**protocols · security boundaries · AI infrastructure · cryptography**
+**AMARIAN**　·　**AGENT FIREWALL**
 
-<br><br>
+`protocol engineering`　`security engineering`　`AI infrastructure`
 
-`────────────────────────────────────────────────────────`
+<br />
 
-<br>
+### BUILD · BREAK · SECURE · REPEAT
 
-**BUILD. BREAK. SECURE. REPEAT.**
+[GitHub](https://github.com/Shubhbhangoo)　·　[Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-)　·　[Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)
 
 </div>
