@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#8f9aaa"/><stop offset="1" stop-color="#fff"/></linearGradient></defs>
+<rect width="900" height="270" rx="28" fill="#08090c" stroke="#252932"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <rect x="28" y="28" width="404" height="214" rx="22" fill="#111318" stroke="#292e37"/>
+ <rect x="468" y="28" width="404" height="214" rx="22" fill="#111318" stroke="#292e37"/>
+ <circle cx="230" cy="82" r="28" fill="none" stroke="#e8edf4" stroke-width="2"><animateTransform attributeName="transform" type="rotate" from="0 230 82" to="360 230 82" dur="8s" repeatCount="indefinite"/></circle>
+ <path d="M230 58 L252 82 L230 106 L208 82 Z" fill="none" stroke="#fff" stroke-width="2" opacity=".8"><animate attributeName="opacity" values=".35;1;.35" dur="2.5s" repeatCount="indefinite"/></path>
+ <text x="230" y="142" text-anchor="middle" fill="url(#g)" font-size="27" font-weight="700" letter-spacing="4">AMARIAN</text>
+ <text x="230" y="166" text-anchor="middle" fill="#8993a2" font-family="monospace" font-size="11">C++23 · POW · UTXO · PQ</text>
+ <text x="230" y="202" text-anchor="middle" fill="#697382" font-family="monospace" font-size="10">PHASES 0 → 12 COMPLETE</text>
+ <g transform="translate(500 75)">
+  <path d="M0 35 H330" stroke="#343a45"/>
+  <circle cy="35" r="4" fill="#fff"><animate attributeName="cx" values="0;330;0" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cy="35" r="4" fill="#fff" opacity=".4"><animate attributeName="cx" values="330;0;330" dur="3.2s" repeatCount="indefinite"/></circle>
+ </g>
+ <text x="670" y="142" text-anchor="middle" fill="url(#g)" font-size="27" font-weight="700" letter-spacing="3">AGENT FIREWALL</text>
+ <text x="670" y="166" text-anchor="middle" fill="#8993a2" font-family="monospace" font-size="11">PYTHON · AUTHORIZATION · AI</text>
+ <text x="670" y="202" text-anchor="middle" fill="#697382" font-family="monospace" font-size="10">CURRENT RELEASE · v2.6</text>
+</g>
+</svg>
