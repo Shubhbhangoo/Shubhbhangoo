@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-label="Amarian protocol signal">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#9ca3af"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="900" height="180" rx="18" fill="#09090b" stroke="#27272a"/>
+<g opacity=".35" stroke="#27272a"><path d="M0 45h900M0 90h900M0 135h900"/><path d="M90 0v180M180 0v180M270 0v180M360 0v180M450 0v180M540 0v180M630 0v180M720 0v180M810 0v180"/></g>
+<path d="M0 90 H170 L190 65 215 115 240 82 265 98 290 90 H450 L470 55 495 125 520 75 545 105 570 90 H900" fill="none" stroke="url(#g)" stroke-width="2" filter="url(#glow)" stroke-dasharray="900" stroke-dashoffset="900"><animate attributeName="stroke-dashoffset" from="900" to="0" dur="2.8s" repeatCount="indefinite"/></path>
+<g font-family="ui-monospace,monospace" fill="#a1a1aa"><text x="34" y="35" font-size="12" letter-spacing="3">AMARIAN / PROTOCOL SIGNAL</text><text x="34" y="158" font-size="11">C++23 · SHA-256d · UTXO · P2P · POST-QUANTUM</text></g>
+<g fill="#fff"><circle cx="190" cy="65" r="3"><animate attributeName="r" values="2;5;2" dur="1.4s" repeatCount="indefinite"/></circle><circle cx="470" cy="55" r="3"><animate attributeName="r" values="2;5;2" dur="1.4s" begin=".7s" repeatCount="indefinite"/></circle></g></svg>
