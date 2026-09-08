@@ -1,12 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/glass-orbit.svg" width="900" alt="Animated systems lab" />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero.svg" width="900" alt="Animated kinetic typography hero" />
 
-# SHUBH BHANGU
-
-### SYSTEMS · SECURITY · AI INFRASTRUCTURE · CRYPTOGRAPHY
-
-**I build infrastructure for the parts of software that are supposed to be difficult.**
+<br />
 
 `C++23` · `Python` · `Distributed Systems` · `Cryptography` · `AI Agents`
 
@@ -16,37 +12,35 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/glass-panels.svg" width="900" alt="Amarian and Agent Firewall" />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-projects.svg" width="900" alt="Animated Amarian and Agent Firewall project panels" />
 
 </div>
 
 ## 01 / AMARIAN
 
-### **Digital diamond, built from scratch.** 💎
+### **Digital diamond, engineered from first principles.**
 
-An independent proof-of-work blockchain engineered in **C++23** around deterministic consensus, scarce issuance, self-custody, auditability and a post-quantum future.
+An independent proof-of-work blockchain in **C++23** built around deterministic consensus, scarce issuance, self-custody, auditability, and a post-quantum future.
 
 <div align="center">
 
-`SHA-256d`　`UTXO`　`P2P`　`WALLET`　`RocksDB`　`POST-QUANTUM`
+`SHA-256d` · `UTXO` · `P2P` · `WALLET` · `RocksDB` · `POST-QUANTUM`
 
 **PHASES 0 → 12 COMPLETE**
 
-[ **EXPLORE AMARIAN ↗** ](https://github.com/Shubhbhangoo/Amarian-AMR-)　[ **PROTOCOL SITE ↗** ](https://shubhbhangoo.github.io/Amarian-AMR-/)
+[ **REPOSITORY ↗** ](https://github.com/Shubhbhangoo/Amarian-AMR-)　[ **PROTOCOL SITE ↗** ](https://shubhbhangoo.github.io/Amarian-AMR-/)
 
 </div>
 
-> Not a financial product. Not a promise of value. An engineering project built to make the protocol answer to its own rules.
+> An engineering project, not a financial product or promise of value.
 
 ---
 
 ## 02 / AGENT FIREWALL
 
-### **Make authorization boring. Make failure safe.** 🛡️
+### **Authorization should be boring. Failure should be safe.**
 
 Security control-plane infrastructure for autonomous AI agents and automated tool use.
-
-The central boundary is deliberately narrow:
 
 ```text
 IDENTITY → TASK → AUTHORITY → CAPABILITY → POLICY
@@ -56,53 +50,34 @@ IDENTITY → TASK → AUTHORITY → CAPABILITY → POLICY
                                   EXECUTION
 ```
 
-Everything around that boundary provides evidence, context, monitoring and response. Nothing gets to quietly become a second authorization path.
+The authorization boundary stays explicit and fail-closed. Identity, provenance, behavioral analysis, evidence, posture, and response surround it without becoming alternate grant paths.
 
 <div align="center">
 
-`CAPABILITIES`　`CRYPTOGRAPHIC IDENTITY`　`DELEGATION`　`REPLAY PROTECTION`  
-`MCP / HTTP`　`BEHAVIORAL ANALYSIS`　`EVIDENCE`　`CONCURRENCY`
+`CAPABILITIES` · `CRYPTOGRAPHIC IDENTITY` · `DELEGATION` · `REPLAY PROTECTION`  
+`MCP / HTTP` · `BEHAVIORAL ANALYSIS` · `EVIDENCE` · `CONCURRENCY`
 
 **CURRENT RELEASE · v2.6**
 
-[ **EXPLORE AGENT FIREWALL ↗** ](https://github.com/Shubhbhangoo/agent-firewall)
+[ **REPOSITORY ↗** ](https://github.com/Shubhbhangoo/agent-firewall)
 
 </div>
 
 ---
 
-## 03 / THE COMMON THREAD
+## 03 / THE ENGINEERING THREAD
 
 <div align="center">
 
-```text
-             AMARIAN                 AGENT FIREWALL
-                │                          │
-                │                          │
-          DISTRIBUTED TRUST          AUTHORITY TRUST
-                │                          │
-                └──────────┬───────────────┘
-                           │
-                           ▼
-                    TRUST BOUNDARIES
-                           │
-                           ▼
-                 SYSTEMS UNDER PRESSURE
-```
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/glass-orbit.svg" width="900" alt="Animated systems trust boundary" />
 
 </div>
 
-I care about software where the interesting questions begin **after** the happy path works.
+I care about the layer where software stops being a demo and starts meeting pressure.
 
-- hostile input
-- changing state during a decision
-- deterministic failure
-- explicit invariants
-- measurable claims
-- reproducible behaviour
-- narrow trust boundaries
+**Hostile input. Race windows. Deterministic failure. Explicit invariants. Measurable claims. Reproducible behaviour. Narrow trust boundaries.**
 
-**Build it. Attack it. Measure it. Then make the failure harder to repeat.**
+That is the common thread between a blockchain protocol and an authorization system for AI agents: **make the rules explicit, then make violating them difficult.**
 
 ---
 
@@ -126,7 +101,7 @@ I care about software where the interesting questions begin **after** the happy 
 
 <br />
 
-### BUILD · BREAK · SECURE · REPEAT
+### BUILD → BREAK → VERIFY → HARDEN
 
 [GitHub](https://github.com/Shubhbhangoo)　·　[Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-)　·　[Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)
 
