@@ -1,140 +1,134 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/amarian-signal.svg" width="900" alt="Amarian protocol signal" />
-
-# SHUBH BHANGU
-
-### Systems · Security · AI Infrastructure · Cryptography
-
-**I build systems that are interesting after the demo works.**
-
-[![Amarian](https://img.shields.io/badge/AMARIAN-C%2B%2B23-09090b?style=for-the-badge)](https://github.com/Shubhbhangoo/Amarian-AMR-)
-[![Agent Firewall](https://img.shields.io/badge/AGENT_FIREWALL-v2.6-09090b?style=for-the-badge)](https://github.com/Shubhbhangoo/agent-firewall)
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/profile-hero.svg" width="100%" alt="Shubh Bhanghu systems lab" />
 
 </div>
 
----
+<div align="center">
 
-## CURRENT BUILDS
+[ **AMARIAN** ](https://github.com/Shubhbhangoo/Amarian-AMR-)　 [ **AGENT FIREWALL** ](https://github.com/Shubhbhangoo/agent-firewall)　 [ **RESEARCH** ](https://github.com/Shubhbhangoo/research)
 
-<table>
+</div>
+
+<br>
+
+<div align="center">
+
+### TWO SYSTEMS. ONE OBSESSION.
+
+**Build the boundary. Attack the boundary. Measure the boundary.**
+
+</div>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/project-map.svg" width="100%" alt="Amarian and Agent Firewall project map" />
+
+<br>
+
+## 01 / AMARIAN
+
+<div align="center">
+
+### 💎 DIGITAL DIAMOND
+
+</div>
+
+An independent proof-of-work blockchain built from scratch in **C++23**. Amarian is an exercise in building a protocol all the way down: consensus, UTXO, storage, mining, networking, wallet, RPC and post-quantum signatures.
+
+`C++23` · `SHA-256d` · `UTXO` · `P2P` · `RocksDB` · `PQ CRYPTO`
+
+**PHASES 0–12 COMPLETE** · Phase 13 is mainnet readiness.
+
+<div align="center">
+
+**[ EXPLORE REPOSITORY ](https://github.com/Shubhbhangoo/Amarian-AMR-)**　 **[ OPEN PROTOCOL SITE ](https://shubhbhangoo.github.io/Amarian-AMR-/)**
+
+</div>
+
+<br>
+
+## 02 / AGENT FIREWALL
+
+<div align="center">
+
+### 🛡️ THE AUTHORIZATION BOUNDARY
+
+</div>
+
+Security control-plane infrastructure for autonomous AI agents and automated tool use. The central rule is deliberately boring and therefore useful: **authorization stays deterministic, explicit and fail-closed.**
+
+Identity, capabilities, delegation, provenance, monitoring, behavioral analysis, evidence and adaptive controls sit around that boundary without becoming a second path to authority.
+
+`PYTHON` · `CAPABILITIES` · `CRYPTOGRAPHIC IDENTITY` · `MCP` · `FUZZING` · `THREAT MODELING`
+
+**v2.6** · concurrency-focused security release.
+
+<div align="center">
+
+**[ EXPLORE REPOSITORY ](https://github.com/Shubhbhangoo/agent-firewall)**
+
+</div>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/terminal-loop.svg" width="100%" alt="Animated systems lab terminal" />
+
+<br>
+
+<div align="center">
+
+## THE WORKBENCH
+
+`C++`　`Python`　`TypeScript`　`Linux`　`CMake`　`Ninja`  
+`Cryptography`　`Distributed Systems`　`AI Agents`　`Authorization`  
+`Fuzzing`　`Threat Modeling`　`Machine Learning`
+
+</div>
+
+<br>
+
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 💎 AMARIAN
+### ENGINEERING RULES
 
-**An independent proof-of-work blockchain built from scratch in C++23.**
-
-A protocol experiment built around scarcity, deterministic consensus, self-custody, auditability, and a post-quantum future.
-
-```text
-C++23       ████████████████████
-CONSENSUS   ████████████████████
-P2P         ████████████████████
-WALLET      ████████████████████
-PQ CRYPTO   ████████████████████
-```
-
-**PHASES 0–12 COMPLETE**
-
-→ [Repository](https://github.com/Shubhbhangoo/Amarian-AMR-)  
-→ [Protocol site](https://shubhbhangoo.github.io/Amarian-AMR-/)
+**01** Make the boundary explicit.  
+**02** Make failure safe.  
+**03** Make invariants executable.  
+**04** Measure what matters.  
+**05** Never trust the happy path.
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ AGENT FIREWALL
+### QUESTIONS I LIKE
 
-**Security control-plane infrastructure for autonomous AI agents.**
-
-Authorization stays deterministic, explicit, and fail-closed. Identity, provenance, monitoring, behavioral analysis, evidence, and response sit around that boundary.
-
-```text
-IDENTITY → TASK → AUTHORITY
-             ↓
-          POLICY
-             ↓
-      ALLOW / DENY / REFUSE
-             ↓
-         EXECUTION
-```
-
-**CURRENT: v2.6**  
-Concurrency-focused security release.
-
-→ [Repository](https://github.com/Shubhbhangoo/agent-firewall)
+What happens under hostile input?  
+What happens when state changes mid-decision?  
+Can the claim be reproduced?  
+Can the invariant fail CI?  
+Can another engineer verify it?
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/firewall-grid.svg" width="900" alt="Agent Firewall authorization boundary" />
-
-</div>
-
----
-
-## THE INTERSECTION
-
-```text
-                    ┌─────────────────┐
-                    │   SYSTEMS       │
-                    │   ENGINEERING   │
-                    └────────┬────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              │              │              │
-              ▼              ▼              ▼
-          PROTOCOLS       SECURITY       AI AGENTS
-              │              │              │
-              └──────────────┼──────────────┘
-                             ▼
-                    TRUST BOUNDARIES
-                             │
-                             ▼
-                 SOFTWARE UNDER PRESSURE
-```
-
-### Things I care about
-
-`C++` · `Python` · `Cryptography` · `Authorization` · `AI Agents` · `Distributed Systems` · `Fuzzing` · `Threat Modeling` · `Linux` · `CMake`
-
----
-
-## ENGINEERING PHILOSOPHY
-
-> **Make the boundary explicit. Make the failure safe. Make the system measurable.**
-
-I like projects that force the implementation to answer uncomfortable questions:
-
-- What happens with hostile input?
-- What happens when state changes halfway through a decision?
-- Can an invariant be tested instead of merely documented?
-- Can the important claims be measured and reproduced?
-- Can someone else inspect the system and verify the result?
-
-That is where the interesting engineering starts.
-
----
-
-## SELECTED WORK
-
-| Project | Domain | Core |
-|---|---|---|
-| 💎 [**Amarian**](https://github.com/Shubhbhangoo/Amarian-AMR-) | Blockchain / Systems | C++23 · PoW · UTXO |
-| 🛡️ [**Agent Firewall**](https://github.com/Shubhbhangoo/agent-firewall) | AI Security | Python · Authorization |
-| 🔬 [**Research**](https://github.com/Shubhbhangoo/research) | Research / Experiments | Mixed |
-
----
+<br>
 
 <div align="center">
 
-### BUILD. BREAK. SECURE. REPEAT.
+### CURRENTLY BUILDING
 
-`████████████████████████████████████████`
+**protocols · security boundaries · AI infrastructure · cryptography**
 
-[GitHub](https://github.com/Shubhbhangoo) · [Amarian](https://github.com/Shubhbhangoo/Amarian-AMR-) · [Agent Firewall](https://github.com/Shubhbhangoo/agent-firewall)
+<br><br>
+
+`────────────────────────────────────────────────────────`
+
+<br>
+
+**BUILD. BREAK. SECURE. REPEAT.**
 
 </div>
