@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero-v3.svg" width="900" alt="Animated cinematic systems lab hero" />
+<img src="https://raw.githubusercontent.com/Shubhbhangoo/Shubhbhangoo/main/assets/kinetic-hero-v4.svg" width="900" alt="Animated cinematic systems lab hero" />
 
 </div>
 
