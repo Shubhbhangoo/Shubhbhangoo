@@ -51,13 +51,15 @@ The authorization boundary stays explicit and fail-closed. Identity, provenance,
 <div align="center">
 
 `CAPABILITIES` · `CRYPTOGRAPHIC IDENTITY` · `DELEGATION` · `REPLAY PROTECTION`  
-`MCP / HTTP` · `BEHAVIORAL ANALYSIS` · `EVIDENCE` · `CONCURRENCY`
+`MCP / HTTP` · `BEHAVIORAL ANALYSIS` · `EVIDENCE` · `CONCURRENCY` · `SIDE-EFFECT INTEGRITY`
 
-**CURRENT RELEASE · v2.6**
+**CURRENT RELEASE · v2.8**
 
 [ **REPOSITORY ↗** ](https://github.com/Shubhbhangoo/agent-firewall)
 
 </div>
+
+v2.8 makes the external side-effect boundary explicit and recoverable: durable intent before an external request, exactly one recorded attempt, explicit `SUCCEEDED / FAILED / UNKNOWN` outcomes, receipts as observations rather than proof, and reconciliation that never silently retries an unknown effect. The authorization path remains singular: `authorize()` is still the only allow origin.
 
 ---
 
